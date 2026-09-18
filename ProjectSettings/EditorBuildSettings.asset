@@ -20,6 +20,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/pagina4.unity
     guid: ce4f604f6c0ddaa4d84d172cb4c5ef72
+  - enabled: 1
+    path: Assets/Scenes/pagina5.unity
+    guid: b5b3291a7a6cc4b458a28b0602a3cf68
+  - enabled: 1
+    path: Assets/Scenes/pagina6.unity
+    guid: b6c52b1cfdf62fd4bbf220af93f28794
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
