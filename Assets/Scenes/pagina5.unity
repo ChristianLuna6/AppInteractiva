@@ -333,6 +333,7 @@ GameObject:
   - component: {fileID: 425431870}
   - component: {fileID: 425431869}
   - component: {fileID: 425431868}
+  - component: {fileID: 425431871}
   m_Layer: 5
   m_Name: FallGuys_UI_2
   m_TagString: Untagged
@@ -356,8 +357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.43300003, y: 0.11400001}
   m_AnchorMax: {x: 0.5, y: 0.35436168}
-  m_AnchoredPosition: {x: 18, y: 68.21796}
-  m_SizeDelta: {x: -11, y: -176.556}
+  m_AnchoredPosition: {x: 18, y: 63.075928}
+  m_SizeDelta: {x: -11, y: -126.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &425431868
 MonoBehaviour:
@@ -410,6 +411,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425431866}
   m_CullTransparentMesh: 1
+--- !u!95 &425431871
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425431866}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4bc5aad6856f9674c9b328b49820c4c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &549621247
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5866371, y: 0.48600003}
   m_AnchorMax: {x: 0.653363, y: 0.68200004}
-  m_AnchoredPosition: {x: -0.000030517578, y: -4.550003}
+  m_AnchoredPosition: {x: 0, y: -4.550003}
   m_SizeDelta: {x: 10.23999, y: 9.0999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &549621249
@@ -497,6 +520,7 @@ GameObject:
   - component: {fileID: 665639104}
   - component: {fileID: 665639103}
   - component: {fileID: 665639102}
+  - component: {fileID: 665639105}
   m_Layer: 5
   m_Name: HollowKnight_UI_1
   m_TagString: Untagged
@@ -520,8 +544,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31161797, y: 0.11400001}
   m_AnchorMax: {x: 0.4247007, y: 0.366254}
-  m_AnchoredPosition: {x: 0, y: 60.717957}
-  m_SizeDelta: {x: -75.90503, y: -174.121}
+  m_AnchoredPosition: {x: 0, y: 56.389954}
+  m_SizeDelta: {x: -75.905, y: -139.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &665639102
 MonoBehaviour:
@@ -574,6 +598,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665639100}
   m_CullTransparentMesh: 1
+--- !u!95 &665639105
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665639100}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3a71d37f85d71494bb566fa20e490004, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &707444709
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,6 +778,7 @@ GameObject:
   - component: {fileID: 940125153}
   - component: {fileID: 940125152}
   - component: {fileID: 940125151}
+  - component: {fileID: 940125154}
   m_Layer: 5
   m_Name: AmongUs_UI_1
   m_TagString: Untagged
@@ -755,8 +802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.045522574, y: 0.11400001}
   m_AnchorMax: {x: 0.17427415, y: 0.35436168}
-  m_AnchoredPosition: {x: 0, y: 59.500977}
-  m_SizeDelta: {x: -112, y: -176.556}
+  m_AnchoredPosition: {x: 0, y: 63.078003}
+  m_SizeDelta: {x: -112, y: -126.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940125151
 MonoBehaviour:
@@ -809,6 +856,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940125149}
   m_CullTransparentMesh: 1
+--- !u!95 &940125154
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940125149}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e5532f3f3001bac4ea17199a8e89fcf2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,7 +1178,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.1
+  m_fontSize: 49.55
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1173,6 +1242,7 @@ GameObject:
   - component: {fileID: 1492369817}
   - component: {fileID: 1492369816}
   - component: {fileID: 1492369815}
+  - component: {fileID: 1492369818}
   m_Layer: 5
   m_Name: FallGuys_UI_1
   m_TagString: Untagged
@@ -1196,8 +1266,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.61955714, y: 0.11400001}
   m_AnchorMax: {x: 0.69600004, y: 0.35436168}
-  m_AnchoredPosition: {x: 26, y: 59.5}
-  m_SizeDelta: {x: -27, y: -176.556}
+  m_AnchoredPosition: {x: 26, y: 63.077}
+  m_SizeDelta: {x: -27, y: -126.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492369815
 MonoBehaviour:
@@ -1250,6 +1320,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492369813}
   m_CullTransparentMesh: 1
+--- !u!95 &1492369818
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492369813}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 01c4bfcdbdd0e794cacdb7fad9cfc3d8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1544449618
 GameObject:
   m_ObjectHideFlags: 0
@@ -1262,6 +1354,7 @@ GameObject:
   - component: {fileID: 1544449622}
   - component: {fileID: 1544449621}
   - component: {fileID: 1544449620}
+  - component: {fileID: 1544449623}
   m_Layer: 5
   m_Name: CupHead_UI_2
   m_TagString: Untagged
@@ -1285,8 +1378,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.80817527, y: 0.11400001}
   m_AnchorMax: {x: 0.91700006, y: 0.366254}
-  m_AnchoredPosition: {x: 14, y: 60.717987}
-  m_SizeDelta: {x: -68.90503, y: -174.121}
+  m_AnchoredPosition: {x: 14, y: 56.389038}
+  m_SizeDelta: {x: -68.905, y: -139.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544449620
 MonoBehaviour:
@@ -1339,6 +1432,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544449618}
   m_CullTransparentMesh: 1
+--- !u!95 &1544449623
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544449618}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11e2ee6c5145ef942ab9f6e704365edf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1726565616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,6 +1702,7 @@ GameObject:
   - component: {fileID: 1827243401}
   - component: {fileID: 1827243400}
   - component: {fileID: 1827243399}
+  - component: {fileID: 1827243402}
   m_Layer: 5
   m_Name: CupHead_UI_1
   m_TagString: Untagged
@@ -1610,8 +1726,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.20529932, y: 0.11400001}
   m_AnchorMax: {x: 0.2861752, y: 0.35436168}
-  m_AnchoredPosition: {x: 3.0479736, y: 68.21796}
-  m_SizeDelta: {x: -22.905, y: -159.121}
+  m_AnchoredPosition: {x: 3.0480957, y: 63.078003}
+  m_SizeDelta: {x: -22.905, y: -126.158}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1827243399
 MonoBehaviour:
@@ -1664,6 +1780,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827243397}
   m_CullTransparentMesh: 1
+--- !u!95 &1827243402
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827243397}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3363050ab4b6b714a9694afbc15ae7c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1848814516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1960,7 @@ GameObject:
   - component: {fileID: 1956654338}
   - component: {fileID: 1956654337}
   - component: {fileID: 1956654336}
+  - component: {fileID: 1956654339}
   m_Layer: 5
   m_Name: HollowKnight_UI_2
   m_TagString: Untagged
@@ -1845,8 +1984,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.69600004, y: 0.11400001}
   m_AnchorMax: {x: 0.80817527, y: 0.366254}
-  m_AnchoredPosition: {x: 23, y: 60.719}
-  m_SizeDelta: {x: -73.90503, y: -174.121}
+  m_AnchoredPosition: {x: 23, y: 56.393066}
+  m_SizeDelta: {x: -73.905, y: -139.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956654336
 MonoBehaviour:
@@ -1899,6 +2038,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956654334}
   m_CullTransparentMesh: 1
+--- !u!95 &1956654339
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956654334}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d5f3c71bb5b9e6448a7a25661bf5e1b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1958489528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,6 +2222,7 @@ GameObject:
   - component: {fileID: 2006997035}
   - component: {fileID: 2006997034}
   - component: {fileID: 2006997033}
+  - component: {fileID: 2006997036}
   m_Layer: 5
   m_Name: AmongUs_UI_2
   m_TagString: Untagged
@@ -2084,8 +2246,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.528, y: 0.11400001}
   m_AnchorMax: {x: 0.61955714, y: 0.35436168}
-  m_AnchoredPosition: {x: -16.5, y: 68.218}
-  m_SizeDelta: {x: -52, y: -176.556}
+  m_AnchoredPosition: {x: -16.5, y: 63.077}
+  m_SizeDelta: {x: -52, y: -126.16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006997033
 MonoBehaviour:
@@ -2138,6 +2300,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2006997031}
   m_CullTransparentMesh: 1
+--- !u!95 &2006997036
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006997031}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 76822407c447b7b4da6d8821b6e20a62, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2046319984
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,7 +2542,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 47.85
+  m_fontSize: 44.75
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
